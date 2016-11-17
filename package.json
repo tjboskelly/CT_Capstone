@@ -1,18 +1,17 @@
 {
-  "name": "Capstone",
+  "name": "tjboskelly",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "private": true,
+  "description": "Capstone Node",
+  "main": ".mongorc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-    "dependencies": {
-        "body-parser": "^1.15.2",
-        "express": "^4.14.0",
-        "mongoose": "^4.6.5"
-    },
-  "license": "ISC"
-    
+  "author": "TJ Boskelly",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {}
 }

@@ -1,17 +1,18 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="capstone.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script   src="http://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>  
-        <script type="text/javascript" src="v2.2.0/jquery.rateyo.js"></script>
-        <script type="text/javascript" src="v2.2.0/rater.js"></script>
-        <link rel="stylesheet" href="v2.2.0/jquery.rateyo.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOlWWtrDPBrVGL7hTrOu9tFxe2d9ljkKE&callback=initMap" async defer></script>
-        <script src="map.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.2.0/ui-bootstrap-tpls.min.js"></script>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="angular.min.js"></script>
         <script type="text/javascript" src="crafts.js"></script>
-        <script type="text/javascript" src="scrollbar.js"></script>
+        <script type="text/javascript" src="rater.js"></script>
+        <script type="text/javascript" src="map.js"></script>
+        <link rel="stylesheet" type="text/css" href="capstone.css">
     </head>
     <body>
         <a name="home"></a>
@@ -33,34 +34,50 @@
                         </ul>
                 </nav>
                 <section class="home">
-                    <div class="containercarousel">
-                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="hometitle">Original Craft Beer Shoppe</div>
+                        <div id="homeCarousel" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
-                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel" data-slide-to="1"></li>
-                                <li data-target="#carousel" data-slide-to="2"></li>
-                                <li data-target="#carousel" data-slide-to="3"></li>
+                                <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#homeCarousel" data-slide-to="1"></li>
+                                <li data-target="#homeCarousel" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="1.png" alt="text"></div>
+                                    <img src="carouselimages/image1.jpg">
+                                    <div class="carousel-caption">
+                                        <div>Welcome</div>
+                                    </div>
+                                </div>
                                 <div class="item">
-                                    <img src="2.jpg" alt="text"></div>
+                                    <img src="carouselimages/image2.jpg">
+                                    <div class="carousel-caption">
+                                        <div>Beer of the Month</div>
+                                        <div>Revolution Brewing - Fistmas Holiday Ale</div>
+                                    </div>
+                                </div>
                                 <div class="item">
-                                    <img src="3.jpg" alt="text"></div>
-                                <div class="item">
-                                    <img src="4.jpg" alt="text"></div>
-                            </div>    
-                        </div>
+                                    <img src="carouselimages/image3.jpg">
+                                    <div class="carousel-caption">
+                                        <div>Brewery Showcase</div>
+                                        <div>Half Acre Beer Company</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <b class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            </b>
+                            <b class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            </b>
                     </div>
                 </section>
             </div>
         <a name="aboutus"></a>
             <div class="hero-img4">
                 <section class="aboutus">
-                    <div class="aboutuscontainer">    
-                        <div class="aboutustitle">About Us
-                            <div class="aboutusbody">Original Craft Beer Shoppe endlessly endeavors to create the The Ultimate Beer Experience. We are striving to create a place where beer drinkers can experience the stories and beers from their favorite breweries. We also hope our space will encourage people to come together and enjoy the social and relaxed atmosphere that beer naturally creates.
+                    <div class="aboutustitle">About Us
+                        <div class="aboutuscontainer">    
+                        <div class="aboutusbody">Original Craft Beer Shoppe endlessly endeavors to create the The Ultimate Beer Experience. We are striving to create a place where beer drinkers can experience the stories and beers from their favorite breweries. We also hope our space will encourage people to come together and enjoy the social and relaxed atmosphere that beer naturally creates.
                             As a specialty retail beer store, Original Craft Beer Shoppe focuses on selling the best selection of American Craft and International beer.</div>
                             <div id="map"></div>
                         </div>
@@ -73,15 +90,19 @@
                 <section class="craftscontainer">
                 <div class="crafts" ng-app="store">
                     <div ng-controller="StoreController as library">
-                            <div ng-repeat="product in library.product">
-                                <div class="clearfix" ng-if="$index % 3 == 0"></div>
-                                    <div class="col-sm-4 craftsbox">
-                                        <div> {{product.name}} </div>
-                                        <div> {{product.price | currency}} </div>
+                        <div ng-repeat="product in library.product">
+                        <div class="clearfix" ng-if="$index % 3 == 0"></div>
+                            <div class="col-sm-4 craftsbox">
+                                <div class="craftsimage">
+                                    <img ng-src="{{product.images[0].full}}">
+                                    <div class=craftscaption>
+                                        <div class="craftsname"> {{product.name}} </div>
+                                        <div class="brewery"> {{product.brewery}} </div>
                                         <div> {{product.description}} </div>
-                                        <img ng-src="{{product.images[0].full}}">
+                                    </div>
                                 </div>
                             </div>
+                        </div>
                     </div>    
                 </div>
                 </section>
@@ -89,13 +110,24 @@
         <a name="review"></a>
             <div class="hero-img3">
                 <section class="review">
-                    <div class="reviewcontainer">
+                    <div class="formtitle">Rate Your Beer</div>
                         <form>
-                            <div class="formtitle">Rate Your Beer</div>
-                                <div class="stars">
-                                    <div id="rateYo"></div>
+                            <div class="cont">
+                              <div class="stars">
+                                <div action="">
+                                  <input class="star star-5" id="star-5-2" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-5-2"></label>
+                                  <input class="star star-4" id="star-4-2" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-4-2"></label>
+                                  <input class="star star-3" id="star-3-2" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-3-2"></label>
+                                  <input class="star star-2" id="star-2-2" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-2-2"></label>
+                                  <input class="star star-1" id="star-1-2" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-1-2"></label>
                                 </div>
-                            <br>
+                              </div>
+                            </div>
                             <div class="form-group">
                                 <input type="Name" class="form-control" id="name" placeholder="First Name, Last Initial">
                             </div>
@@ -110,7 +142,6 @@
                             </div>
                             <button type="submit" class="btn btn-default">Submit</button>
                         </form>
-                    </div>
                 </section>
             </div>
     </body>
